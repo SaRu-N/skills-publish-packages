@@ -16,7 +16,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/sarumaru/publish-packages/game
+          images: ghcr.io/SaRu-N/publish-packages/game
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v2
